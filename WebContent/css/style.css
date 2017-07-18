@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Vibur);
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: arial;
+}
+.clear {
+	clear: left;
+}
+
+html {
+	height: 200%
+}
+h1 {
+	color: #555;
+	text-align: center;
+	font-family: 'Palatino', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	color: #555;
+	text-align: center;
+	font-family: 'Vibur', cursive;
+	font-size: 30px;
+}
+
+body {
+	background-image: url("../images/mmjc.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.login-form {
+	float: left;
+	width: 800px;
+	padding: 40px 30px;
+	background: #eee;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: inline-block;
+	opacity: 0.9;
+	filter: alpha(opacity=70);
+}
+
+.form-group {
+	position: relative;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.form-control {
+	width: 50%;
+	height: auto;
+	border: none;
+	padding: 5px 7px 10px 15px;
+	background: #fff;
+	color: #555;
+	border: 2px solid #ddd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 15px;
+	text-align: left;
+	line-height: normal;
+}
+.form-control:focus, .form-control:focus + .fa {
+	border-color: #555;
+	color: #555;
+	font-size: 20px;
+}
+
+.form-group .fa {
+	position: absolute;
+	right: 15px;
+	top: 17px;
+	color: #999;
+}
+
+.log-status.wrong-entry {
+	-moz-animation: wrong-log 0.3s;
+	-webkit-animation: wrong-log 0.3s;
+	animation: wrong-log 0.3s;
+}
+
+.log-status.wrong-entry .form-control, .wrong-entry .form-control + .fa {
+	border-color: #ed1c24;
+	color: #ed1c24;
+	font-size: 20px;
+	line-height: 3;
+}
+
+.log-btn {
+	align: center;
+	background: #C6C6C6;
+	dispaly: inline-block;
+	width: 20%;
+	font-size: 20px;
+	height: 40px;
+	color: #555;
+	text-decoration: none;
+	border: 2px solid #ddd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.input {
+	display: inline-block;
+	float: left;
+	text-indent: 10px;
+}
+
+fieldset {
+	overflow: hidden
+}
+
+.radio-class {
+	/*float: left;*/
+	/*clear: none;*/
+	/*height:50px;*/
+	width: auto;
+	height: 25px;
+	padding: 5px 7px 10px 15px;
+	margin-bottom: 10px;
+}
+
+label {
+	float: left;
+	clear: none;
+	dispaly: inline-block;
+	padding: 2px 1em 0 0;
+}
+
+input[type=radio], input.radio-type {
+	float: left;
+	clear: none;
+	width: auto;
+	height: auto;
+	margin: 5px 0 0 5px;
+}
+
+.center {
+	position: relative;
+	top: 50%;
+	margin: auto;
+	display: block;
+}
+
+.link {
+	text-decoration: none;
+	color: #C6C6C6;
+	float: right;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.link:hover {
+	text-decoration: underline;
+	color: #8C918F;
+}
+
+.alert {
+	display: none;
+	font-size: 12px;
+	color: #f00;
+	float: left;
+}
+
+@-moz-keyframes wrong-log {
+0%, 100% {
+left: 0px;
+}
+20% , 60% {
+left: 15px;
+}
+40% , 80% {
+left: -15px;
+}
+}
+@-webkit-keyframes wrong-log {
+0%, 100% {
+left: 0px;
+}
+20% , 60% {
+left: 15px;
+}
+40% , 80% {
+left: -15px;
+}
+}
+@keyframes wrong-log {
+0%, 100% {
+left: 0px;
+}
+20% , 60% {
+left: 15px;
+}
+40% , 80% {
+left: -15px;
+}
+}

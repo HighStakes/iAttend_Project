@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Attendance SMS Notification</title>
+		<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/chosen.min.css">
+		<!-- <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/> -->
+		<script src="js/message.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<form method="post" name="iAttendForm" action="iAttend">
+			<div class="login-form" id="iAttendId">
+
+				<h1>Marimallappa's</h1> 
+					<h1>Pre-University College</h1>
+				<center><img src="images/logo.png" alt="" height="120" width="120">
+				</center>
+				<h2>Attendance Shortage Notification System</h2>
+				<div class="form-group log-status" id="form-id">
+					<input type="text" class="form-control" placeholder="Student ID" name="sid" id="sid" style="width:367px">
+					<!-- <input type="text" class="form-control" placeholder="College" id="college" name="college" style="width:367px">  -->
+					<input type="text" class="form-control" placeholder="Class" name="class" id="class" style="width:180px">
+					<input type="text" class="form-control" placeholder="Section" name="section" id="section" style="width:180px">
+				</div>
+				<div class="form-group log-status" id="name-id">
+					<input type="text" class="form-control" placeholder="First Name*" name="fname" id="fname"  style="width:367px">
+					<input type="text" class="form-control" placeholder="Last Name*" name="lname" id="lname"  style="width:367px">
+				</div>
+
+				<div class="form-group radio-class" id="student_gender">
+					 
+					<label for="male">Male</label>
+					<input type="radio" name="gender" class="radio-type" value="male" id="male" style="width:162px">
+					<label for="female">Female</label>
+					<input type="radio" name="gender" class="radio-type" value="female" id="female" style="width:162px">
+
+				</div>
+
+				<div class="form-group log-status" id="gender-id">
+					<select data-placeholder="Subjects*"  multiple class="chosen-select" name="subjects" id="subjects" style="width:367px;">
+						 
+						<option value="Physics">Physics</option>
+						<option value="Chemistry">Chemistry</option>
+						<option value="Maths">Maths</option>
+						<option value="Botany">Botany</option>
+						<option value="Zoology">Zoology</option>
+						<option value="Physics Lab">Physics Lab</option>
+						<option value="Chemistry Lab">Chemistry Lab</option>
+						<option value="Botany Lab">Botany Lab</option>
+						<option value="Zoology Lab">Zoology Lab</option>
+						<option value="Kannada">Kannada</option>
+						<option value="Sanskrit">Sanskrit</option>
+						<option value="English">English</option>
+					</select>
+
+					<input type="text" class="form-control" placeholder="Parent Contact*" name="contact" id="contact" style="width:367px">
+				</div>
+
+				<div class="form-group log-status" id="message-id">
+					<textarea class="form-control" name="message" id="message" style="width:740px;height:150px;font-size:15px;text-align:left;background: #fff;"></textarea>
+				</div>
+				<div class="form-group log-status" id="button-id">
+					<center>
+						<input type="button" class="log-btn" value="Fill Messsage" id="Fill_Messsage" onclick="messageText()">
+						<input type="submit" class="log-btn" value="Send SMS">
+						<input type="reset" class="log-btn" value="Reset"> 
+						<!-- <input type="button" class="log-btn" value="Check Logs"> --> 
+					</center>
+				</div>
+
+			</div>
+
+		</form>
+		<script type="text/javascript">
+			$(".chosen-select").chosen({
+				no_results_text : "Oops, nothing found!"
+			})
+		</script>
+
+		 
+	</body>
+</html>

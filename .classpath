@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/c3p0-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/cglib-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/hibernate-testing.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/infinispan-core-4.2.1.CR1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/jbosscache-core-3.2.1.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/jta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/oscache-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/proxool-0.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/puneethshankar/Documents/workspace/HIbernateInAction/src/lib/swarmcache-1.0RC2.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/puneethshankar/Desktop/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
